@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Kabir Singta - Front End and Backend Developer">
+    <title>Kabir Singta | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="header">
+        <div class="header-container">
+            <h1 class="logo">Kabir Singta</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero / Intro Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <p class="greeting">Hello, I'm</p>
+            <h2>Kabir Singta</h2>
+            <p class="tagline">A passionate Web Developer</p>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-image">
+                <img src="kabir.jpg" alt="Kabir Singta" class="profile-photo">
+            </div>
+            <div class="about-text">
+                <p>Hi! I'm <strong>Kabir Singta</strong>, a web developer with a passion for building websites and web applications. I enjoy working on both the front end and back end of projects.</p>
+                <p>I am skilled in HTML, CSS, JavaScript for front-end development, and I also have experience with backend technologies. I love learning new things and improving my skills every day.</p>
+                <p>When I'm not coding, I enjoy exploring new technologies and working on personal projects to sharpen my abilities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h3>HTML</h3>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <h3>CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">⚡</div>
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">⚛️</div>
+                <h3>React</h3>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 65%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🖥️</div>
+                <h3>Node.js</h3>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🗄️</div>
+                <h3>MongoDB</h3>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 60%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-image" style="background-color: #e8f4f8;">
+                    <span class="project-emoji">📝</span>
+                </div>
+                <div class="project-info">
+                    <h3>To-Do List App</h3>
+                    <p>A simple to-do list application built with HTML, CSS, and JavaScript. Users can add, delete, and mark tasks as complete.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image" style="background-color: #f8e8e8;">
+                    <span class="project-emoji">🧮</span>
+                </div>
+                <div class="project-info">
+                    <h3>Calculator</h3>
+                    <p>A basic calculator that can perform addition, subtraction, multiplication, and division. Built using vanilla JavaScript.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image" style="background-color: #e8f8e8;">
+                    <span class="project-emoji">🌤️</span>
+                </div>
+                <div class="project-info">
+                    <h3>Weather App</h3>
+                    <p>A weather application that shows current weather information for any city using a free weather API.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2 class="section-title">Resume</h2>
+        <div class="resume-container">
+            <div class="resume-icon">📄</div>
+            <p>Download my resume to learn more about my education, experience, and skills.</p>
+            <a href="resume.html" class="btn" target="_blank">View / Download Resume</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <div>
+                        <h3>Email</h3>
+                        <a href="mailto:kabirsingta18@gmail.com">kabirsingta18@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📞</span>
+                    <div>
+                        <h3>Phone</h3>
+                        <a href="tel:+918894930833">8894930833</a>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" id="contact-form" onsubmit="handleSubmit(event)">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-container">
+            <p>&copy; 2025 Kabir Singta. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#header">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
